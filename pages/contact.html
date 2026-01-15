@@ -1,0 +1,182 @@
+<section class="page-contact" role="main" aria-labelledby="contactTitle">
+  <!-- Page assets: ../css/pages/contact.css | ../js/pages/contact.js -->
+  <div class="container container--page">
+
+    <!-- HERO -->
+    <header class="contact-hero" aria-describedby="contactLead">
+      <p class="contact-eyebrow">Contact</p>
+      <h1 id="contactTitle">Let’s Turn an Idea Into a Working System</h1>
+      <p class="contact-lead" id="contactLead">
+        Whether you’re building a product, refining an experience, or untangling a complex problem —
+        I’m open to collaboration and thoughtful work.
+      </p>
+
+      <div class="contact-signals" role="list" aria-label="What you can expect">
+        <div class="signal" role="listitem">
+          <span class="signal-icon" aria-hidden="true">🧠</span>
+          <div class="signal-body">
+            <h2 class="signal-title">Clarity First</h2>
+            <p class="signal-text">We define the goal, the constraints, and the best path forward.</p>
+          </div>
+        </div>
+
+        <div class="signal" role="listitem">
+          <span class="signal-icon" aria-hidden="true">⚙️</span>
+          <div class="signal-body">
+            <h2 class="signal-title">Systems Thinking</h2>
+            <p class="signal-text">Architecture, trade-offs, and structure that scales.</p>
+          </div>
+        </div>
+
+        <div class="signal" role="listitem">
+          <span class="signal-icon" aria-hidden="true">✨</span>
+          <div class="signal-body">
+            <h2 class="signal-title">Polished Execution</h2>
+            <p class="signal-text">Details matter — performance, UX rhythm, and accessibility.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="contact-layout">
+
+      <!-- LEFT: METHODS -->
+      <aside class="contact-info" aria-label="Contact methods">
+        <h2>Get in touch</h2>
+
+        <a class="contact-item" href="mailto:your.email@example.com" aria-label="Email: your.email@example.com">
+          <div class="contact-icon" aria-hidden="true">📧</div>
+          <div class="contact-item__body">
+            <h3>Email</h3>
+            <p>your.email@example.com</p>
+            <small>Usually reply within 24 hours</small>
+          </div>
+        </a>
+
+        <a class="contact-item" href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"
+           aria-label="LinkedIn profile (opens in a new tab)">
+          <div class="contact-icon" aria-hidden="true">💼</div>
+          <div class="contact-item__body">
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/yourprofile</p>
+            <small>Professional connection + collaboration</small>
+          </div>
+        </a>
+
+        <a class="contact-item" href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+           aria-label="GitHub profile (opens in a new tab)">
+          <div class="contact-icon" aria-hidden="true">💻</div>
+          <div class="contact-item__body">
+            <h3>GitHub</h3>
+            <p>github.com/yourusername</p>
+            <small>Code, experiments, and builds</small>
+          </div>
+        </a>
+
+        <div class="availability" aria-label="Availability">
+          <h3>Current availability</h3>
+          <div class="availability-status available">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Open to new opportunities</span>
+          </div>
+          <p class="availability-note">
+            Particularly interested in work where structure, product thinking, and strong execution matter.
+          </p>
+
+          <div class="availability-tags" aria-label="Preferred work tags">
+            <span class="tag">Product build</span>
+            <span class="tag">Web / Full-stack</span>
+            <span class="tag">Mobile</span>
+            <span class="tag">UI systems</span>
+            <span class="tag">Data + insight</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT: FORM -->
+      <section class="contact-form-container" aria-labelledby="formTitle">
+        <h2 id="formTitle">Send a message</h2>
+        <p class="form-intro">
+          Tell me what you’re building (or trying to fix). The more context you share, the more useful my reply will be.
+        </p>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required aria-required="true" autocomplete="email" inputmode="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">What’s this about?</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="project">Project / Product Build</option>
+              <option value="opportunity">Opportunity</option>
+              <option value="consulting">Consulting / Review</option>
+              <option value="design">UI / UX / System Design</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              required
+              aria-required="true"
+              placeholder="What are you building, what’s the goal, what’s blocking you, and what would success look like?"
+              autocomplete="off"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading" style="display: none;">Sending…</span>
+          </button>
+
+          <p class="form-footnote">
+            Prefer not to use forms? Email me directly and I’ll respond with the same care.
+          </p>
+        </form>
+      </section>
+
+    </div>
+
+    <!-- COLLABORATION -->
+    <section class="collaboration-section" aria-labelledby="collabTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="collabTitle">How I Collaborate</h2>
+        <p class="section-subtitle">
+          I work best when goals are clear, feedback is honest, and the process stays adaptable.
+        </p>
+      </header>
+
+      <div class="philosophy-grid">
+        <article class="philosophy-item">
+          <h3>Clarity & Alignment</h3>
+          <p>We define the outcome first — then build the system that gets us there.</p>
+        </article>
+
+        <article class="philosophy-item">
+          <h3>Structured Adaptability</h3>
+          <p>Strong plans, flexible execution. We iterate and refine without losing direction.</p>
+        </article>
+
+        <article class="philosophy-item">
+          <h3>Quality in the Details</h3>
+          <p>Performance, accessibility, and polish matter — that’s what makes the work feel professional.</p>
+        </article>
+      </div>
+    </section>
+
+  </div>
+</section>

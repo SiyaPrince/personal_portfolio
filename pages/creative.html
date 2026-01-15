@@ -1,0 +1,307 @@
+<section class="page-creative" role="main" aria-labelledby="creativeTitle">
+  <!-- Page assets: ../css/pages/creative.css | ../js/pages/creative.js -->
+  <div class="container container--page">
+
+    <!-- HERO -->
+    <header class="creative-hero" aria-describedby="creativeLead">
+      <div class="creative-hero__text">
+        <p class="creative-eyebrow">Creative</p>
+        <h1 id="creativeTitle">Structure, Emotion, and Iteration</h1>
+        <p class="creative-lead" id="creativeLead">
+          Creativity is part of my engineering process — it shapes how I design interfaces, tell stories with data,
+          and build experiences that feel human.
+        </p>
+
+        <div class="creative-hero__highlights" role="list" aria-label="Creative highlights">
+          <div class="highlight" role="listitem">
+            <span class="highlight__icon" aria-hidden="true">🧠</span>
+            <div class="highlight__body">
+              <h2 class="highlight__title">Analytical → Creative</h2>
+              <p class="highlight__text">Logic first, then craft. I design around constraints and make it feel effortless.</p>
+            </div>
+          </div>
+
+          <div class="highlight" role="listitem">
+            <span class="highlight__icon" aria-hidden="true">✨</span>
+            <div class="highlight__body">
+              <h2 class="highlight__title">Visual Storytelling</h2>
+              <p class="highlight__text">Composition, rhythm, and clarity — for interfaces, data, and narrative.</p>
+            </div>
+          </div>
+
+          <div class="highlight" role="listitem">
+            <span class="highlight__icon" aria-hidden="true">🔁</span>
+            <div class="highlight__body">
+              <h2 class="highlight__title">Iterate & Refine</h2>
+              <p class="highlight__text">Prototype quickly, improve deliberately, polish the details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="creative-hero__panel" aria-label="Creative perspective panel">
+        <div class="panel-card">
+          <h2 class="panel-title">My Creative Operating System</h2>
+          <p class="panel-text">
+            I use creative work as a training ground for better systems thinking — it improves how I see patterns,
+            simplify complexity, and communicate ideas clearly.
+          </p>
+
+          <dl class="panel-signals" aria-label="Creative signals">
+            <div class="signal">
+              <dt class="signal__label">Focus</dt>
+              <dd class="signal__value">Clarity + impact</dd>
+            </div>
+            <div class="signal">
+              <dt class="signal__label">Method</dt>
+              <dd class="signal__value">Structure → exploration</dd>
+            </div>
+            <div class="signal">
+              <dt class="signal__label">Outcome</dt>
+              <dd class="signal__value">Experiences that feel intentional</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </header>
+
+    <!-- PHILOSOPHY -->
+    <section class="creative-philosophy" aria-labelledby="philosophyTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="philosophyTitle">The Analytical Artist</h2>
+        <p class="section-subtitle">
+          Creativity isn’t separate from my technical work — it’s how I design better systems, better interfaces,
+          and better communication.
+        </p>
+      </header>
+
+      <div class="creative-principles" role="list" aria-label="Creative principles">
+        <article class="principle" role="listitem">
+          <div class="principle__icon" aria-hidden="true">🧩</div>
+          <h3>Structure in Chaos</h3>
+          <p>Patterns in abstraction — composition, constraints, and clarity even when the work is expressive.</p>
+          <ul class="principle__points" aria-label="Structure in chaos points">
+            <li>Composition & hierarchy</li>
+            <li>Intentional constraints</li>
+            <li>Readable outcomes</li>
+          </ul>
+        </article>
+
+        <article class="principle" role="listitem">
+          <div class="principle__icon" aria-hidden="true">⚖️</div>
+          <h3>Emotional Logic</h3>
+          <p>Precision with feeling — making visuals and narratives resonate while staying grounded in structure.</p>
+          <ul class="principle__points" aria-label="Emotional logic points">
+            <li>Rhythm & pacing</li>
+            <li>Meaningful contrast</li>
+            <li>Human-centered choices</li>
+          </ul>
+        </article>
+
+        <article class="principle" role="listitem">
+          <div class="principle__icon" aria-hidden="true">🛠️</div>
+          <h3>Adaptive Expression</h3>
+          <p>Different mediums, same intent — exploring ideas from multiple angles until the message is clear.</p>
+          <ul class="principle__points" aria-label="Adaptive expression points">
+            <li>Visual experiments</li>
+            <li>Writing & narrative</li>
+            <li>Design exploration</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="works-section" aria-labelledby="worksTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="worksTitle">Creative Works</h2>
+        <p class="section-subtitle">
+          A curated set of experiments and explorations — visual, written, and designed.
+        </p>
+      </header>
+
+      <!-- Filters (keep behavior for creative.js) -->
+      <div class="creative-filters" role="tablist" aria-label="Filter creative works">
+        <button class="filter-btn active" type="button" data-filter="all" role="tab" aria-selected="true">All Works</button>
+        <button class="filter-btn" type="button" data-filter="visual" role="tab" aria-selected="false">Visual Art</button>
+        <button class="filter-btn" type="button" data-filter="writing" role="tab" aria-selected="false">Writing</button>
+        <button class="filter-btn" type="button" data-filter="design" role="tab" aria-selected="false">Design</button>
+      </div>
+
+      <!-- Works Grid (keep id for creative.js) -->
+      <div class="works-grid" id="works-grid" role="list" aria-label="Creative works grid">
+
+        <!-- Visual Art Items -->
+        <article class="work-item" data-category="visual" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder" aria-hidden="true">
+              <span>🎨</span>
+              <small>Drawing/Painting</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>Abstract Composition</h3>
+              <p>Exploring the intersection of geometric precision and organic forms.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">Digital Painting</span>
+              <span class="work-year">2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-item" data-category="visual" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder" aria-hidden="true">
+              <span>✏️</span>
+              <small>Sketch</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>Character Studies</h3>
+              <p>Observational drawings exploring human expression and form.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">Pencil & Ink</span>
+              <span class="work-year">2023</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Writing Items -->
+        <article class="work-item" data-category="writing" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder writing" aria-hidden="true">
+              <span>📖</span>
+              <small>Creative Writing</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>Technical Poetry</h3>
+              <p>Exploring the beauty of algorithms and data through verse.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">Poetry</span>
+              <span class="work-year">2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-item" data-category="writing" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder writing" aria-hidden="true">
+              <span>📝</span>
+              <small>Essay</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>The Mathematics of Beauty</h3>
+              <p>Examining how mathematical principles underpin aesthetic appeal.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">Essay</span>
+              <span class="work-year">2023</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Design Items -->
+        <article class="work-item" data-category="design" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder design" aria-hidden="true">
+              <span>🎯</span>
+              <small>UI/UX Design</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>Learning Interface Concepts</h3>
+              <p>Exploring adaptive UI patterns for educational technology.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">UI Design</span>
+              <span class="work-year">2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-item" data-category="design" role="listitem">
+          <div class="work-image">
+            <div class="image-placeholder design" aria-hidden="true">
+              <span>📊</span>
+              <small>Data Viz</small>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-top">
+              <h3>Algorithmic Art</h3>
+              <p>Generative art created through mathematical functions and code.</p>
+            </div>
+            <div class="work-meta" aria-label="Work details">
+              <span class="work-medium">Generative Art</span>
+              <span class="work-year">2023</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Empty-state helper (safe even if JS never uses it) -->
+      <p class="works-empty" id="worksEmpty" hidden>
+        No works match this filter yet.
+      </p>
+    </section>
+
+    <!-- CONNECTION -->
+    <section class="connection-section" aria-labelledby="connectionTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="connectionTitle">Where Creativity Meets Code</h2>
+        <p class="section-subtitle">
+          These aren’t separate worlds. Creative practice improves my technical output — and engineering discipline improves my creative work.
+        </p>
+      </header>
+
+      <div class="connection-grid" role="list" aria-label="Connections between creativity and code">
+        <article class="connection-item" role="listitem">
+          <h3>Visual Thinking in Development</h3>
+          <p>
+            Composition, hierarchy, and contrast influence how I build interfaces — making layouts intuitive,
+            scannable, and easy to use.
+          </p>
+        </article>
+
+        <article class="connection-item" role="listitem">
+          <h3>Narrative in Data</h3>
+          <p>
+            Writing trains clarity. It helps me explain complex systems and present data in ways that feel
+            purposeful instead of overwhelming.
+          </p>
+        </article>
+
+        <article class="connection-item" role="listitem">
+          <h3>Abstract Problem-Solving</h3>
+          <p>
+            Art strengthens pattern recognition and abstraction — skills that transfer directly into algorithms,
+            architecture, and system design.
+          </p>
+        </article>
+      </div>
+
+      <div class="creative-cta">
+        <div class="creative-cta__content">
+          <h3>Want to see how this translates into real products?</h3>
+          <p>Explore my projects, or reach out and let’s build something intentional.</p>
+        </div>
+        <div class="creative-cta__actions">
+          <a class="btn btn--primary" href="#projects">Explore Projects</a>
+          <a class="btn btn--secondary" href="#contact">Start a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</section>

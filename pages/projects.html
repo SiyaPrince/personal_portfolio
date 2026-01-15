@@ -1,0 +1,182 @@
+<section class="page-projects" role="main">
+  <div class="container container--page">
+    <header class="projects-header">
+      <h1>Projects</h1>
+      <p class="projects-subtitle">
+        Turning ideas into working systems — built with clarity, craft, and real-world intent.
+      </p>
+    </header>
+
+    <div class="filter-system-enhanced" aria-label="Project filters and search">
+      <div class="search-container">
+        <div class="search-box">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="search-icon" aria-hidden="true">
+            <path
+              d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            />
+          </svg>
+
+          <input
+            type="text"
+            id="project-search"
+            placeholder="Search by title, description, technology..."
+            class="search-input"
+            aria-label="Search projects"
+            autocomplete="off"
+          >
+          <div class="search-suggestions" id="search-suggestions" role="listbox" aria-label="Search suggestions"></div>
+        </div>
+      </div>
+
+      <div class="filters-row" aria-label="Filter controls">
+        <details class="filter-dropdown" id="tech-dropdown">
+          <summary class="filter-dropdown__summary" aria-label="Toggle technology filters">
+            <span class="filter-dropdown__title">Technologies</span>
+            <span class="filter-count" id="tech-count">0</span>
+            <span class="filter-dropdown__chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="filter-dropdown__panel" role="group" aria-label="Technology filters">
+            <div class="filter-options" id="technology-filters">
+              <label class="filter-option">
+                <input type="checkbox" value="python" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">🐍</span><span>Python/ML</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="javascript" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">🟨</span><span>JavaScript</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="react" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">⚛️</span><span>React</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="node" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">🟢</span><span>Node.js</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="java" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">☕</span><span>Java</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="cpp" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">⚙️</span><span>C/C++</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="flutter" data-filter="technology">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="tech-icon" aria-hidden="true">💙</span><span>Flutter</span></span>
+              </label>
+            </div>
+          </div>
+        </details>
+
+        <details class="filter-dropdown" id="type-dropdown">
+          <summary class="filter-dropdown__summary" aria-label="Toggle project type filters">
+            <span class="filter-dropdown__title">Project Type</span>
+            <span class="filter-count" id="type-count">0</span>
+            <span class="filter-dropdown__chev" aria-hidden="true">▾</span>
+          </summary>
+
+          <div class="filter-dropdown__panel" role="group" aria-label="Project type filters">
+            <div class="filter-options" id="type-filters">
+              <label class="filter-option">
+                <input type="checkbox" value="learning" data-filter="type">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="type-icon" aria-hidden="true">🎓</span><span>Learning Tech</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="fullstack" data-filter="type">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="type-icon" aria-hidden="true">🌐</span><span>Full-Stack</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="data" data-filter="type">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="type-icon" aria-hidden="true">📊</span><span>Data Viz</span></span>
+              </label>
+
+              <label class="filter-option">
+                <input type="checkbox" value="creative" data-filter="type">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="option-content"><span class="type-icon" aria-hidden="true">🎨</span><span>Creative Tech</span></span>
+              </label>
+            </div>
+          </div>
+        </details>
+
+        <div class="filter-compact" aria-label="Complexity filter">
+          <div class="filter-compact__top">
+            <span class="filter-compact__label">Complexity</span>
+            <span class="filter-compact__value" id="slider-value" aria-live="polite">
+              Showing projects with complexity level 1+
+            </span>
+          </div>
+
+          <label for="complexity-range" class="sr-only">Filter by complexity level</label>
+          <input
+            type="range"
+            id="complexity-range"
+            min="1"
+            max="5"
+            value="1"
+            class="slider"
+            aria-label="Filter projects by complexity level from 1 (simple) to 5 (expert)"
+            aria-valuetext="Level 1: Simple"
+          >
+        </div>
+
+        <div class="sort-options">
+          <label for="sort-select">Sort:</label>
+          <select id="sort-select" class="sort-select" aria-label="Sort projects by">
+            <option value="complexity">Complexity (High to Low)</option>
+            <option value="impact">Impact (High to Low)</option>
+            <option value="recent">Most Recent</option>
+            <option value="alphabetical">Alphabetical</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="active-filters" id="active-filters" aria-label="Active filters"></div>
+    </div>
+
+    <div class="projects-grid-enhanced" id="projects-grid">
+      <div class="loading-state">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <p>Loading projects...</p>
+      </div>
+    </div>
+
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <div class="empty-icon" aria-hidden="true">🔍</div>
+      <h3>No projects found</h3>
+      <p>Try adjusting your filters or search terms</p>
+      <button class="btn btn--secondary" id="reset-filters" type="button">Reset All Filters</button>
+    </div>
+  </div>
+</section>
+
+<div class="project-modal" id="project-modal" aria-hidden="true">
+  <div class="modal-content" role="dialog" aria-modal="true" aria-label="Project details">
+    <button class="modal-close" id="modal-close" aria-label="Close project details" type="button">&times;</button>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<!-- Firebase config must load before projects.js -->
+<script type="module" src="../js/firebase/firebaseConfig.js"></script>
+<script type="module" src="../js/pages/projects.js"></script>

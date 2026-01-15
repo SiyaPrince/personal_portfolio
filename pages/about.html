@@ -1,0 +1,400 @@
+<section class="page-about" role="main" aria-labelledby="aboutTitle">
+  <!-- Page assets: ../css/pages/about.css | ../js/pages/about.js -->
+  <div class="container container--page">
+
+    <!-- HERO -->
+    <header class="about-hero" aria-describedby="aboutSubtitle">
+      <div class="hero-content">
+        <p class="about-eyebrow">About</p>
+
+        <h1 id="aboutTitle">
+          The <span class="text-gradient">Analytical Creator</span>
+        </h1>
+
+        <p class="hero-subtitle" id="aboutSubtitle">
+          I turn complex ideas into working systems — balancing structure, creativity, and the details that make products feel effortless.
+        </p>
+
+        <!-- Balance Visual -->
+        <div class="balance-visual" aria-label="Balance between analytical and creative thinking">
+          <div class="balance-scale">
+            <div class="scale-left">
+              <div class="scale-label">Structure</div>
+              <div class="scale-bar" aria-hidden="true">
+                <div class="scale-fill analytical-fill" data-percent="85"></div>
+              </div>
+            </div>
+
+            <div class="scale-center" aria-hidden="true">
+              <div class="balance-point"></div>
+            </div>
+
+            <div class="scale-right">
+              <div class="scale-label">Imagination</div>
+              <div class="scale-bar" aria-hidden="true">
+                <div class="scale-fill creative-fill" data-percent="75"></div>
+              </div>
+            </div>
+          </div>
+
+          <p class="balance-caption">
+            My default mode: think in systems, build with intention, refine until it feels right.
+          </p>
+        </div>
+      </div>
+
+      <!-- Stats (JS reads data-target) -->
+      <div class="hero-stats" aria-label="About statistics">
+        <div class="stat-card">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Technologies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Years Learning</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SKILLS RADAR -->
+    <section class="skills-radar-section" aria-labelledby="skillsTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="skillsTitle">Multi-Disciplinary Strength</h2>
+        <p class="section-subtitle">
+          I’m at my best when the work needs both clarity and craft — from architecture and data thinking to design and interaction.
+        </p>
+      </header>
+
+      <div class="radar-container">
+        <div class="radar-chart" id="skills-radar" aria-label="Skills radar chart">
+          <canvas id="radar-canvas" width="400" height="400"></canvas>
+
+          <div class="radar-labels" aria-hidden="true">
+            <div class="radar-label" data-skill="development">Development</div>
+            <div class="radar-label" data-skill="data-science">Data</div>
+            <div class="radar-label" data-skill="design">Design</div>
+            <div class="radar-label" data-skill="ml-ai">ML/AI</div>
+            <div class="radar-label" data-skill="problem-solving">Systems</div>
+          </div>
+        </div>
+
+        <div class="skills-details">
+          <h3>Technical Stack</h3>
+
+          <div class="tech-stack">
+            <div class="tech-category">
+              <h4>Core Languages</h4>
+              <div class="tech-levels">
+                <div class="tech-item">
+                  <span class="tech-name">Python</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="90"></div>
+                  </div>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">JavaScript</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="85"></div>
+                  </div>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">Java</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="75"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tech-category">
+              <h4>Frameworks & Tools</h4>
+              <div class="tech-levels">
+                <div class="tech-item">
+                  <span class="tech-name">React</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="80"></div>
+                  </div>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">Node.js</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="85"></div>
+                  </div>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">TensorFlow</span>
+                  <div class="tech-bar" aria-hidden="true">
+                    <div class="tech-progress" data-level="70"></div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="tech-note">
+                I learn fast, ship thoughtfully, and optimize the experience — not just the code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey-section" aria-labelledby="journeyTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="journeyTitle">My Learning Journey</h2>
+        <p class="section-subtitle">
+          A timeline of how I expanded from building interfaces to building systems — and then refining the craft.
+        </p>
+      </header>
+
+      <div class="timeline-enhanced">
+        <div class="timeline-item interactive">
+          <div class="timeline-marker" data-year="2019" aria-hidden="true">
+            <div class="marker-icon">💻</div>
+          </div>
+
+          <div class="timeline-content">
+            <h3>Development Foundation</h3>
+            <p class="timeline-date">2019 – Present</p>
+            <p>
+              Started with core web fundamentals, then grew into full-stack patterns, architecture habits,
+              and building UI that feels clean and reliable.
+            </p>
+
+            <div class="timeline-skills" aria-label="Development skills">
+              <span class="skill-pill">HTML/CSS</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Node.js</span>
+            </div>
+
+            <button class="timeline-expand" type="button" data-target="dev-details" aria-label="View details for Development Foundation">
+              View Details
+            </button>
+
+            <div class="timeline-details" id="dev-details" hidden aria-hidden="true">
+              <ul>
+                <li>Built responsive layouts and reusable components.</li>
+                <li>Strengthened accessibility and semantic structure habits.</li>
+                <li>Expanded into APIs, state, and architecture thinking.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item interactive">
+          <div class="timeline-marker" data-year="2021" aria-hidden="true">
+            <div class="marker-icon">📈</div>
+          </div>
+
+          <div class="timeline-content">
+            <h3>Data & Decision Thinking</h3>
+            <p class="timeline-date">2021 – Present</p>
+            <p>
+              Explored analytics and ML as a way to improve products — not as buzzwords, but as decision layers
+              that help systems adapt and improve.
+            </p>
+
+            <div class="timeline-skills" aria-label="Data skills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">ML Basics</span>
+              <span class="skill-pill">Data Viz</span>
+            </div>
+
+            <button class="timeline-expand" type="button" data-target="data-details" aria-label="View details for Data & Decision Thinking">
+              View Details
+            </button>
+
+            <div class="timeline-details" id="data-details" hidden aria-hidden="true">
+              <ul>
+                <li>Cleaned, explored, and visualized datasets for insight.</li>
+                <li>Practiced evaluation, iteration, and “what matters” thinking.</li>
+                <li>Focused on practical use-cases and clear communication.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item interactive">
+          <div class="timeline-marker" data-year="2023" aria-hidden="true">
+            <div class="marker-icon">✨</div>
+          </div>
+
+          <div class="timeline-content">
+            <h3>Creative Integration</h3>
+            <p class="timeline-date">2023 – Present</p>
+            <p>
+              Started designing the “feel” of systems — interaction, rhythm, hierarchy, and accessibility —
+              so the work doesn’t just function, it communicates.
+            </p>
+
+            <div class="timeline-skills" aria-label="Design skills">
+              <span class="skill-pill">UI/UX</span>
+              <span class="skill-pill">Figma</span>
+              <span class="skill-pill">Creative Coding</span>
+              <span class="skill-pill">Storytelling</span>
+            </div>
+
+            <button class="timeline-expand" type="button" data-target="design-details" aria-label="View details for Creative Integration">
+              View Details
+            </button>
+
+            <div class="timeline-details" id="design-details" hidden aria-hidden="true">
+              <ul>
+                <li>Built design systems that strengthen hierarchy and clarity.</li>
+                <li>Bridged design → implementation with component thinking.</li>
+                <li>Focused on accessibility and real user flows.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRINCIPLES (flip cards - keep structure for JS/accessibility) -->
+    <section class="philosophy-interactive" aria-labelledby="principlesTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="principlesTitle">Core Principles</h2>
+        <p class="section-subtitle">
+          The rules I follow when I’m building: keep it purposeful, keep it clear, and make it feel intentional.
+        </p>
+      </header>
+
+      <div class="principles-grid">
+        <div class="principle-card" data-principle="complexity" tabindex="0" role="button" aria-label="Purpose-driven systems (flip card)">
+          <div class="card-front">
+            <div class="principle-icon" aria-hidden="true">🧭</div>
+            <h3>Purpose-Driven Systems</h3>
+            <p>Complexity is only worth it when it creates clarity for users.</p>
+          </div>
+          <div class="card-back">
+            <h4>Why it Matters</h4>
+            <p>
+              I design systems that reduce friction, improve decisions, and translate technical depth into a better experience.
+            </p>
+            <div class="principle-example">
+              <strong>Example:</strong> Clear flows + architecture that scale without feeling heavy.
+            </div>
+          </div>
+        </div>
+
+        <div class="principle-card" data-principle="balance" tabindex="0" role="button" aria-label="Analytical then creative (flip card)">
+          <div class="card-front">
+            <div class="principle-icon" aria-hidden="true">♟️</div>
+            <h3>Analytical, Then Creative</h3>
+            <p>Structure first — then craft the experience people actually feel.</p>
+          </div>
+          <div class="card-back">
+            <h4>Why it Matters</h4>
+            <p>
+              Logic sets the foundation (constraints, trade-offs, patterns). Creativity shapes the clarity: hierarchy, rhythm, interaction.
+            </p>
+            <div class="principle-example">
+              <strong>Example:</strong> Product UI that reads instantly and behaves predictably.
+            </div>
+          </div>
+        </div>
+
+        <div class="principle-card" data-principle="learning" tabindex="0" role="button" aria-label="Iterate and refine (flip card)">
+          <div class="card-front">
+            <div class="principle-icon" aria-hidden="true">🔁</div>
+            <h3>Build, Learn, Refine</h3>
+            <p>Prototype quickly, validate assumptions, then polish intentionally.</p>
+          </div>
+          <div class="card-back">
+            <h4>Why it Matters</h4>
+            <p>
+              The best systems are shaped by iteration — you learn what matters by building, testing, and tightening the details.
+            </p>
+            <div class="principle-example">
+              <strong>Example:</strong> Measuring friction points and improving performance + UX.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="interests-enhanced" aria-labelledby="drivesTitle">
+      <header class="section-head">
+        <h2 class="section-title" id="drivesTitle">What Drives Me</h2>
+        <p class="section-subtitle">
+          These are the inputs behind the output — how I sharpen thinking, taste, and decision-making.
+        </p>
+      </header>
+
+      <div class="interests-grid-interactive">
+        <div class="interest-category interactive" data-category="analytical">
+          <div class="category-header">
+            <div class="category-icon" aria-hidden="true">🔍</div>
+            <h3>Analytical Mind</h3>
+          </div>
+
+          <div class="interest-items">
+            <div class="interest-item detailed">
+              <h4>Chess Strategy</h4>
+              <p>Training foresight, pattern recognition, and decision-making under constraints.</p>
+              <div class="interest-meta" aria-label="Tags">
+                <span class="meta-tag">Systems Thinking</span>
+                <span class="meta-tag">Trade-offs</span>
+              </div>
+            </div>
+
+            <div class="interest-item detailed">
+              <h4>Philosophical Systems</h4>
+              <p>Exploring frameworks for how people, tools, and systems behave — and why.</p>
+              <div class="interest-meta" aria-label="Tags">
+                <span class="meta-tag">Clarity</span>
+                <span class="meta-tag">Critical Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="interest-category interactive" data-category="creative">
+          <div class="category-header">
+            <div class="category-icon" aria-hidden="true">🎨</div>
+            <h3>Creative Expression</h3>
+          </div>
+
+          <div class="interest-items">
+            <div class="interest-item detailed">
+              <h4>Visual Art</h4>
+              <p>Composition, hierarchy, and visual storytelling — the same skills that make UI feel right.</p>
+              <div class="interest-meta" aria-label="Tags">
+                <span class="meta-tag">Design Taste</span>
+                <span class="meta-tag">Composition</span>
+              </div>
+            </div>
+
+            <div class="interest-item detailed">
+              <h4>Technical Writing</h4>
+              <p>Explaining complex ideas clearly — so decisions, systems, and docs stay understandable.</p>
+              <div class="interest-meta" aria-label="Tags">
+                <span class="meta-tag">Communication</span>
+                <span class="meta-tag">Storytelling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-cta">
+        <div class="about-cta__content">
+          <h3>Want to build something that feels inevitable?</h3>
+          <p>Explore my projects — or reach out and let’s turn your idea into a real system.</p>
+        </div>
+        <div class="about-cta__actions">
+          <a href="#projects" class="btn btn--primary">Explore Projects</a>
+          <a href="#contact" class="btn btn--secondary">Start a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</section>

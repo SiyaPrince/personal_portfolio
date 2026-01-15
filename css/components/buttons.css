@@ -1,0 +1,86 @@
+/* Buttons - shared component (supports both naming styles) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  font: inherit;
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(99 102 241 / 0.18);
+}
+
+/* PRIMARY (aliases) */
+.btn-primary,
+.btn--primary {
+  background: linear-gradient(135deg, var(--color-accent-primary), #22d3ee);
+  color: #fff;
+  box-shadow: 0 14px 30px rgb(99 102 241 / 0.18);
+}
+
+.btn-primary:hover,
+.btn--primary:hover {
+  box-shadow: 0 20px 45px rgb(99 102 241 / 0.26);
+  transform: translateY(-1px);
+}
+
+/* SECONDARY (aliases) */
+.btn-secondary,
+.btn--secondary {
+  background: rgb(255 255 255 / 0.85);
+  color: var(--color-primary);
+  border-color: rgb(0 0 0 / 0.14);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover,
+.btn--secondary:hover {
+  border-color: rgb(99 102 241 / 0.35);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
+}
+
+/* GHOST */
+.btn-ghost,
+.btn--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+.btn-ghost:hover,
+.btn--ghost:hover {
+  background: rgb(0 0 0 / 0.04);
+}
+
+.btn[disabled],
+.btn.is-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}

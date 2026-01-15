@@ -1,0 +1,25 @@
+/* Header Component Styles */
+.app-header {
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: var(--header-height);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.brand {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  line-height: 1;
+}

@@ -1,0 +1,523 @@
+[
+  {
+  "id": 101,
+  "title": "Friendship & Love Compatibility App",
+  "description": "React-based compatibility calculator for friendship and love, with interactive forms, dynamic quotes, detailed result pages, and an intimacy likelihood metric.",
+  "technologies": ["react", "javascript", "css"],
+  "type": "creative",
+  "complexity": 3,
+  "impact": 3,
+  "year": 2024,
+  "status": "completed",
+  "image": "💖",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 45,
+  "featured": true,
+  "details": {
+    "challenge": "Designing a user-friendly compatibility experience with consistent inputs and meaningful, explainable scoring across both friendship and love paths.",
+    "solution": "Built a multi-page React flow with structured dropdown inputs and modular utility functions that compute scores and generate tailored advice for results views.",
+    "technologies": ["React (Hooks)", "JavaScript", "CSS Modules", "lucide-react"],
+    "features": [
+      "Love compatibility calculator (names, zodiac, personality, interests, etc.)",
+      "Friendship compatibility calculator with longevity estimate",
+      "Ashkarain likelihood metric (opposite-gender only) based on compatibility factors",
+      "Randomized love & friendship quotes on pages",
+      "Styled result pages with percentages and advice",
+      "Reset / Try Again flow to test new inputs"
+    ]
+  }
+},
+{
+  "id": 102,
+  "title": "GBV Awareness Platform",
+  "description": "Cross-platform Flutter application (mobile, web, and desktop) designed to raise awareness about Gender-Based Violence, provide emergency and support resources, deliver educational content, and display real-time GBV-related statistics through a trauma-informed, safety-first experience.",
+  "technologies": ["flutter", "dart", "firebase"],
+  "type": "learning",
+  "complexity": 5,
+  "impact": 5,
+  "year": 2024,
+  "status": "completed",
+  "image": "🛡️",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 55,
+  "featured": true,
+  "details": {
+    "challenge": "Designing a platform that responsibly handles sensitive GBV-related content while remaining accessible, safe, and informative across multiple devices and regions.",
+    "solution": "Built a shared Flutter architecture with Firebase-backed services, trauma-informed UX patterns, emergency safety mechanisms, and modular features for content, support resources, and real-time analytics.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Firebase Firestore",
+      "flutter_riverpod",
+      "go_router",
+      "FL Chart"
+    ],
+    "features": [
+      "Emergency contacts and one-tap GBV helplines",
+      "Support resources directory with region-based filtering",
+      "Quick Exit safety button for web users",
+      "Educational articles and blog hub with categories and tags",
+      "Real-time Firestore-backed dashboard with charts and KPIs",
+      "Product, FAQ, and testimonials modules",
+      "Cross-platform support for mobile, web, and desktop",
+      "Trauma-informed language, design, and safety disclaimers"
+    ]
+  }
+},
+{
+  "id": 103,
+  "title": "Expense Tracker Web App (Alpha)",
+  "description": "Flutter Web application for tracking and managing personal expenses with secure authentication, real-time Firestore sync, and a dashboard overview. Built as an alpha-stage prototype focusing on core functionality.",
+  "technologies": ["flutter", "dart", "firebase"],
+  "type": "data",
+  "complexity": 4,
+  "impact": 4,
+  "year": 2024,
+  "status": "in-progress",
+  "image": "💰",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 40,
+  "featured": false,
+  "details": {
+    "challenge": "Building a reliable, real-time expense tracking system with secure authentication and cloud persistence while keeping the architecture simple enough for rapid iteration in an alpha release.",
+    "solution": "Implemented a Flutter Web app backed by Firebase Authentication and Cloud Firestore, using provider-based state management and Firestore streams to keep expense data in sync across sessions and devices.",
+    "technologies": [
+      "Flutter Web",
+      "Dart",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Provider"
+    ],
+    "features": [
+      "User registration, login, and logout with Firebase Authentication",
+      "Create, edit, and delete expenses with title, amount, category, and date",
+      "Real-time expense updates using Firestore streams",
+      "Dashboard view summarizing recorded expenses",
+      "Cloud-based persistence and cross-device data sync",
+      "Responsive Flutter Web UI",
+      "Modular project structure for scalability toward beta release"
+    ]
+  }
+},
+{
+  "id": 104,
+  "title": "ForG Auto — Car Dealership Management Platform",
+  "description": "A production-ready Flutter Web application for managing and showcasing a car dealership inventory, featuring a custom-built admin dashboard, Firestore backend, Cloudinary image hosting, and a responsive client-facing vehicle catalog.",
+  "technologies": ["flutter", "dart", "firebase", "cloudinary"],
+  "type": "fullstack",
+  "complexity": 5,
+  "impact": 5,
+  "year": 2025,
+  "status": "completed",
+  "image": "🚘",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 65,
+  "featured": true,
+  "details": {
+    "challenge": "Designing a secure, scalable dealership platform that supports real-time inventory management, image-heavy content, and a protected admin workflow without relying on Firebase Authentication.",
+    "solution": "Implemented a modular Flutter Web architecture with custom admin authentication, Firestore-backed inventory and contact systems, Cloudinary-based image hosting, and responsive layouts optimized for mobile, tablet, and desktop.",
+    "technologies": [
+      "Flutter Web",
+      "Dart",
+      "Firebase Firestore",
+      "Riverpod",
+      "GoRouter",
+      "Cloudinary",
+      "Material 3"
+    ],
+    "features": [
+      "Custom admin authentication using Firestore (name + phone validation)",
+      "Admin dashboard with protected routes and password change flow",
+      "Full CRUD operations for vehicle inventory",
+      "Cloudinary-based multi-image upload with secure URLs",
+      "Client-facing inventory grid with search and advanced filters",
+      "Responsive layouts for mobile, tablet, and desktop breakpoints",
+      "Lazy-loaded images with \"Sold\" vehicle badges",
+      "Contact form with validation and Firestore submission",
+      "Modularized feature-based architecture (data / domain / presentation)",
+      "Production-ready deployment via Firebase Hosting or static hosting"
+    ]
+  }
+},
+{
+  "id": 105,
+  "title": "Airport Web Application (South Africa)",
+  "description": "Full-stack airport web application for viewing flights, booking tickets, and reading airline-related news, with a strong focus on South African airports, airlines, and localization.",
+  "technologies": ["nextjs", "typescript", "node", "express", "firebase"],
+  "type": "fullstack",
+  "complexity": 5,
+  "impact": 4,
+  "year": 2024,
+  "status": "completed",
+  "image": "✈️",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 58,
+  "featured": true,
+  "details": {
+    "challenge": "Designing a scalable flight and booking platform that integrates real-time data, authentication, and localized airline content while maintaining a clean separation between frontend and backend systems.",
+    "solution": "Implemented a Next.js frontend with a dedicated Express.js backend, using Firebase Firestore for real-time data storage and Firebase Authentication for secure user access, alongside modular feature-based architecture.",
+    "technologies": [
+      "Next.js (TypeScript)",
+      "Node.js",
+      "Express.js",
+      "Firebase Firestore",
+      "Firebase Authentication",
+      "Vercel",
+      "Figma"
+    ],
+    "features": [
+      "View flights to and from South African airports",
+      "Responsive flight booking interface",
+      "Airport and airline news aggregation",
+      "Firebase-based authentication and data storage",
+      "South African localization (ZAR currency, regional news)",
+      "Modular frontend and backend project structure",
+      "Separated API service layer for scalability"
+    ]
+  }
+},
+  {
+    "title": "Intelligent Learning Model",
+    "description": "Machine Learning model utilizing Large Language Models for conceptual processing combined with sound recognition techniques for adaptive learning input analysis.",
+    "technologies": ["python", "react", "node"],
+    "tags": ["python", "react", "node"],
+    "type": "learning",
+    "category": "Learning Tech",
+    "complexity": 5,
+    "impact": 5,
+    "year": 2024,
+    "status": "completed",
+    "image": "🤖",
+    "featured": true,
+    "sortOrder": 60,
+    "repoUrl": "",
+    "liveUrl": "https://example.com/intelligent-learning-model",
+    "thumbnail": "",
+    "publishedAt": "2024-01-01",
+    "details": {
+      "challenge": "Creating an adaptive learning system that understands both text and audio inputs",
+      "solution": "Integrated LLM processing with sound recognition algorithms",
+      "technologies": ["Python", "TensorFlow", "React", "Node.js"],
+      "features": ["Adaptive learning paths", "Multi-modal input", "Real-time feedback"]
+    }
+  },
+  {
+  "id": 106,
+  "title": "Multi-Mode Calculator App",
+  "description": "Responsive web-based calculator supporting Basic, Scientific, and Binary modes, with keyboard input, light/dark theme persistence, and advanced mathematical operations.",
+  "technologies": ["html", "css", "javascript"],
+  "type": "creative",
+  "complexity": 3,
+  "impact": 3,
+  "year": 2023,
+  "status": "completed",
+  "image": "🧮",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 30,
+  "featured": false,
+  "details": {
+    "challenge": "Implementing multiple calculator modes with distinct logic paths while keeping the UI intuitive, responsive, and fully keyboard-accessible.",
+    "solution": "Built a modular JavaScript architecture that switches calculation engines per mode, supports binary conversions and operations, and persists user preferences using localStorage.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6)"
+    ],
+    "features": [
+      "Basic arithmetic calculator",
+      "Scientific calculator with trigonometric and logarithmic functions",
+      "Binary conversion and binary math operations",
+      "Keyboard input support for all modes",
+      "Light and dark theme toggle with persistence",
+      "Responsive layout for desktop and mobile devices"
+    ]
+  }
+},
+{
+  "id": 107,
+  "title": "MediConsult — Medical Consultation Website",
+  "description": "Responsive medical consultation web platform for booking online or physical appointments, accessing South African emergency contacts, browsing medical news, and requesting sick notes or referrals through an interactive service directory.",
+  "technologies": ["html", "css", "javascript"],
+  "type": "learning",
+  "complexity": 4,
+  "impact": 5,
+  "year": 2024,
+  "status": "completed",
+  "image": "🩺",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 50,
+  "featured": true,
+  "details": {
+    "challenge": "Creating a healthcare-focused web experience that balances usability, accessibility, and trust while presenting multiple services and sensitive medical workflows without backend infrastructure.",
+    "solution": "Built a fully responsive, multi-page static web application with modular JavaScript handling dynamic content, appointment workflows, and interactive service descriptions.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "features": [
+      "Online and in-person consultation booking forms",
+      "Appointment tracking interface",
+      "Sick note and referral request system",
+      "Interactive services page with dynamic sidebar navigation",
+      "Medical news feed (placeholder logic)",
+      "South African emergency contact directory",
+      "Image carousel and featured services on homepage",
+      "Responsive, mobile-first layout"
+    ]
+  }
+},
+{
+  "id": 108,
+  "title": "Pine City Zoo — Interactive Website",
+  "description": "Interactive, multi-page zoo website showcasing animals, attractions, events, live weather, real-time animal news, and visitor feedback through a playful, image-driven user experience.",
+  "technologies": ["html", "css", "javascript"],
+  "type": "creative",
+  "complexity": 3,
+  "impact": 3,
+  "year": 2023,
+  "status": "completed",
+  "image": "🦁",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 28,
+  "featured": false,
+  "details": {
+    "challenge": "Designing an engaging, information-rich website that balances entertainment and education while integrating external APIs and interactive UI elements.",
+    "solution": "Implemented a multi-page, responsive site with JavaScript-powered interactivity, API-driven weather and news features, and consistent visual theming aligned with a real zoo experience.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "OpenWeatherMap API",
+      "News API"
+    ],
+    "features": [
+      "Animal and attraction listing pages with hover interactions",
+      "Dedicated pages for individual animals",
+      "Live weather forecast with interactive UI",
+      "Real-time animal-related news integration",
+      "Visitor feedback form with star rating system",
+      "Responsive design using Flexbox and media queries",
+      "Embedded maps, external links, and social media integration"
+    ]
+  }
+},
+{
+  "id": 109,
+  "title": "TaskFlow — Productivity & Calendar-Based Task Manager",
+  "description": "Modern productivity-focused task management application with daily, weekly, and monthly calendar views, real-time updates, and MongoDB-backed persistence. Designed to help users plan, track, and complete tasks efficiently.",
+  "technologies": ["nextjs", "react", "javascript", "mongodb", "css"],
+  "type": "fullstack",
+  "complexity": 5,
+  "impact": 5,
+  "year": 2024,
+  "status": "completed",
+  "image": "📅",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 62,
+  "featured": true,
+  "details": {
+    "challenge": "Designing a productivity system that balances detailed task tracking with high-level planning views while maintaining real-time responsiveness and clean UX across devices.",
+    "solution": "Built a Next.js 14 application using the App Router and API routes, backed by MongoDB and Mongoose, with modular calendar views, real-time UI updates, and analytics-driven task progress tracking.",
+    "technologies": [
+      "Next.js 14 (App Router)",
+      "React Hooks",
+      "MongoDB",
+      "Mongoose",
+      "CSS Modules",
+      "Node.js"
+    ],
+    "features": [
+      "Multi-view calendar system (day, week, month)",
+      "Task creation with date, time, priority, and descriptions",
+      "Real-time task status updates (Todo, In Progress, Done)",
+      "Task rescheduling with calendar and time picker",
+      "Progress tracking with duration analytics",
+      "Completed task archive",
+      "Motivational quotes to encourage productivity",
+      "Responsive, animation-enhanced UI",
+      "RESTful API routes for task CRUD operations"
+    ]
+  }
+},
+{
+  "id": 110,
+  "title": "Siya ❤️ Starr — Romantic Anniversary Website",
+  "description": "A heartfelt, story-driven anniversary website designed as a digital love letter, combining elegant visuals, smooth animations, and personal storytelling to celebrate a meaningful relationship.",
+  "technologies": ["html", "css", "javascript"],
+  "type": "creative",
+  "complexity": 3,
+  "impact": 5,
+  "year": 2024,
+  "status": "completed",
+  "image": "💖",
+  "url": "",
+  "liveUrl": "",
+  "repoUrl": "",
+  "sortOrder": 48,
+  "featured": true,
+  "details": {
+    "challenge": "Creating an emotionally expressive yet technically clean website that conveys intimacy, storytelling, and romance without overwhelming the user or sacrificing responsiveness.",
+    "solution": "Designed and built a lightweight, responsive static website using HTML, CSS, and JavaScript, focusing on typography, color harmony, scroll-based animations, and clear narrative structure.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "CSS Animations",
+      "Responsive Design"
+    ],
+    "features": [
+      "Soft pastel theme with romantic typography and styling",
+      "\"Our Story\" timeline with images and fade-in animations",
+      "Gallery of shared memories with photo placeholders",
+      "Personal love letter section",
+      "Scroll-triggered animations for immersive storytelling",
+      "Fully responsive design for mobile and desktop",
+      "Easy customization for images, text, and messages"
+    ]
+  }
+},
+  {
+    "title": "NPO Management Platform",
+    "description": "Full-stack non-profit organization management system with centralized data processing and real-time analytics dashboard.",
+    "technologies": ["javascript", "react", "node"],
+    "tags": ["javascript", "react", "node"],
+    "type": "fullstack",
+    "category": "Full-Stack",
+    "complexity": 4,
+    "impact": 4,
+    "year": 2023,
+    "status": "completed",
+    "image": "🌐",
+    "featured": true,
+    "sortOrder": 50,
+    "repoUrl": "",
+    "liveUrl": "https://example.com/npo-management-platform",
+    "thumbnail": "",
+    "publishedAt": "2023-01-01",
+    "details": {
+      "challenge": "Centralizing multiple data sources for non-profit operations",
+      "solution": "Built unified platform with real-time data processing",
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "features": ["Data centralization", "Real-time analytics", "User management"]
+    }
+  },
+  {
+    "title": "Financial Metrics Tracker",
+    "description": "Personal expense tracking application with advanced data visualization for budget, savings, and investment monitoring.",
+    "technologies": ["javascript", "react"],
+    "tags": ["javascript", "react"],
+    "type": "data",
+    "category": "Data Viz",
+    "complexity": 3,
+    "impact": 3,
+    "year": 2023,
+    "status": "completed",
+    "image": "📊",
+    "featured": false,
+    "sortOrder": 40,
+    "repoUrl": "",
+    "liveUrl": "",
+    "thumbnail": "",
+    "publishedAt": "2023-01-01",
+    "details": {
+      "challenge": "Making financial data accessible and actionable for personal finance management",
+      "solution": "Interactive visualizations with personalized insights and spending patterns",
+      "technologies": ["React", "D3.js", "Chart.js", "Node.js"],
+      "features": ["Expense tracking", "Investment monitoring", "Visual analytics", "Budget planning"]
+    }
+  },
+  {
+    "title": "Creative Coding Framework",
+    "description": "Interactive art generation framework using mathematical algorithms and real-time user input processing for generative art creation.",
+    "technologies": ["javascript", "cpp"],
+    "tags": ["javascript", "cpp"],
+    "type": "creative",
+    "category": "Creative Tech",
+    "complexity": 4,
+    "impact": 3,
+    "year": 2024,
+    "status": "in-progress",
+    "image": "🎨",
+    "featured": false,
+    "sortOrder": 30,
+    "repoUrl": "",
+    "liveUrl": "https://example.com/creative-coding-framework",
+    "thumbnail": "",
+    "publishedAt": "2024-01-01",
+    "details": {
+      "challenge": "Bridging artistic expression with computational logic in an accessible way",
+      "solution": "Framework for generative art with mathematical foundations and real-time rendering",
+      "technologies": ["JavaScript", "C++", "OpenGL", "WebGL"],
+      "features": ["Real-time rendering", "Algorithmic art generation", "Interactive controls", "Export capabilities"]
+    }
+  },
+  {
+    "title": "Mobile Learning App",
+    "description": "Cross-platform mobile application for personalized learning with adaptive content delivery and progress tracking.",
+    "technologies": ["java", "flutter"],
+    "tags": ["java", "flutter"],
+    "type": "learning",
+    "category": "Learning Tech",
+    "complexity": 4,
+    "impact": 4,
+    "year": 2024,
+    "status": "completed",
+    "image": "📱",
+    "featured": true,
+    "sortOrder": 20,
+    "repoUrl": "",
+    "liveUrl": "https://example.com/mobile-learning-app",
+    "thumbnail": "",
+    "publishedAt": "2024-01-01",
+    "details": {
+      "challenge": "Creating engaging mobile learning experiences that adapt to individual progress",
+      "solution": "Cross-platform app with adaptive algorithms and gamified learning elements",
+      "technologies": ["Flutter", "Dart", "Firebase", "Python"],
+      "features": ["Adaptive learning", "Progress tracking", "Gamification", "Offline support"]
+    }
+  },
+  {
+    "title": "Data Visualization Library",
+    "description": "Custom JavaScript library for creating interactive data visualizations with advanced chart types and real-time updates.",
+    "technologies": ["javascript"],
+    "tags": ["javascript"],
+    "type": "data",
+    "category": "Data Viz",
+    "complexity": 3,
+    "impact": 4,
+    "year": 2023,
+    "status": "completed",
+    "image": "📈",
+    "featured": false,
+    "sortOrder": 10,
+    "repoUrl": "",
+    "liveUrl": "https://example.com/dataviz-library",
+    "thumbnail": "",
+    "publishedAt": "2023-01-01",
+    "details": {
+      "challenge": "Simplifying complex data visualization creation for developers",
+      "solution": "Modular library with pre-built chart components and customization options",
+      "technologies": ["JavaScript", "SVG", "Canvas API", "npm"],
+      "features": ["Multiple chart types", "Real-time updates", "Custom styling", "Responsive design"]
+    }
+  }
+]
